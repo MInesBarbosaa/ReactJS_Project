@@ -18,19 +18,19 @@ function App() {
       <div className="links">
         <div className="link-container">
           <a href="https://unblast.com/30-free-dog-breeds-vector-icons-ai/" target="_blank" rel="noreferrer">
-            <img src={logo} alt="MBI Calculator Logo"></img>
+            <img src={introfig} alt="MBI Calculator Logo"></img>
           </a>
           <p>Calculate the MBI of your pet here!</p>
         </div>
         <div className="link-container">
           <a href="https://unblast.com/30-free-dog-breeds-vector-icons-ai/" target="_blank" rel="noreferrer">
-            <img src={logo} alt="MBI Calculator Logo"></img>
+            <img src={introfig} alt="MBI Calculator Logo"></img>
           </a>
           <p>Calculate the MBI of your pet here!</p>
         </div>
         <div className="link-container">
           <a href="https://unblast.com/30-free-dog-breeds-vector-icons-ai/" target="_blank" rel="noreferrer">
-            <img src={logo} alt="MBI Calculator Logo"></img>
+            <img src={introfig} alt="MBI Calculator Logo"></img>
           </a>
           <p>Calculate the MBI of your pet here!</p>
         </div>
