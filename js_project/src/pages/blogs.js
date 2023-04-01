@@ -4,7 +4,9 @@ import React from 'react';
 const default_weight = 50;
 const default_height = 150;
   
-const Blogs = () => {
+const BMI = () => {
+
+
   const [height, setHeight] = useState(default_weight);
   const [weight, setWeight] = useState(default_height);
 
@@ -65,4 +67,4 @@ message = "Underweight: very little fat can be felt under the skin. Ribs, hip bo
   );
 };
 
-export default Blogs;
+export default BMI;
