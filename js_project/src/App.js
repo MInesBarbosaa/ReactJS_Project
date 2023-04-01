@@ -1,25 +1,27 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
-
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route}
+	from 'react-router-dom';
+import Home from './pages';
+import About from './pages/About';
+import Blogs from './pages/blogs';
+import SignUp from './pages/signup';
+import Contact from './pages/contacts';
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact component={<Home/>} />
-        <Route path='/services' component={<Services/>} />
-        <Route path='/contact-us' component={<ContactUs/>} />
-        <Route path='/sign-up' component={<SignUp/>} />
-      </Routes>
-    </Router>
-  );
+return (
+	<Router>
+	<Navbar />
+	<Routes>
+		<Route path='/' exact element={<Home />} />
+		<Route path='/about' element={<About/>} />
+		<Route path='/contact' element={<Contact/>} />
+		<Route path='/blogs' element={<Blogs/>} />
+		<Route path='/sign-up' element={<SignUp/>} />
+	</Routes>
+	</Router>
+);
 }
 
 export default App;
