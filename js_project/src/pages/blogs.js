@@ -1,14 +1,15 @@
 import { useState } from "react";
 import React from 'react';
 
-const default_weight = 50;
-const default_height = 150;
+const default_height = 102;
+const default_weight = 25;
+
   
 const BMI = () => {
 
 
-  const [height, setHeight] = useState(default_weight);
-  const [weight, setWeight] = useState(default_height);
+  const [height, setHeight] = useState(default_height);
+  const [weight, setWeight] = useState(default_weight);
 
   const calculateBmi = () => {
     return (weight / Math.pow((height/100), 2)).toFixed(1);
