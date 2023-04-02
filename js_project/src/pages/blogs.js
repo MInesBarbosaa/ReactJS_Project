@@ -63,6 +63,10 @@ message = "Underweight: very little fat can be felt under the skin. Ribs, hip bo
         <p className="message">{message}</p>
       </div>
 
+      <footer>
+        	<p>© 2023 Dog Lovers Inc. All Rights Reserved.</p>
+      </footer>
+
     </main>
   );
 };

@@ -7,6 +7,15 @@ p {
   line-height: 1.6;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orangered;
+  font-weight: bold;
+  font-size: 50px;
+}
+
 .intro {
   display:flex;
   align-items: center;
@@ -80,6 +89,61 @@ footer {
   height: auto;
   position: absolute;
   left: 30px;
+}
+
+.contacts {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  display: flex;
+  padding: 70px;
+}
+.dogMail {
+  text-align: center;
+}
+
+
+.ContainerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+}
+
+.ContainerImg button {
+  background-color: orangered;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin: 15px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+.image-text-box {
+  /* background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 100px; */
+  border: 1px solid #ccc ;
+  padding: 50px;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  width: 300px;
+}
+
+.ImgSize {
+  width: 275px;
+height: 183;
+}
+
+.gallery_welcome {
+  text-align: center;
+  
 }
 
 

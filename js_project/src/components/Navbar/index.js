@@ -11,7 +11,7 @@ const Navbar = () => {
             <img id="logo" src={logo} alt="Logo"/>
           </NavLink>
           <NavLink to="/about" activeStyle>
-            About
+            Dogs Gallery
           </NavLink>
           <NavLink to="/blogs" activeStyle>
             BMI Calculator
