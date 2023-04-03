@@ -9,11 +9,11 @@ import { useState } from 'react';
 const About = () => {
 	const images  = [image1, image2, image3,image4,image5];
 
-  	const imageTexts = ['1- Labrador Retriever: They are the most popular dog breed in the United States and are known for their friendly and outgoing personality. They are also excellent swimmers and love to retrieve items from water.',
-						'2- Bulldog: This breed is known for its wrinkly face and muscular build. Despite their tough appearance, Bulldogs are generally calm and affectionate with their families.',
-						'3- Beagle: These small dogs are known for their keen sense of smell and are often used in law enforcement for detecting contraband items. They are also very social and love to be around people.',
-						'4- Siberian Husky: These dogs are known for their thick, fluffy coats and striking blue eyes. They were originally bred in northeastern Asia as working dogs and are known for their strength and endurance.',
-						'5- Dachshund: This breed is commonly referred to as the "wiener dog" because of their long, sausage-like bodies. They were originally bred in Germany to hunt badgers and are known for their stubbornness and independent nature.'];
+  	const imageTexts = [<><strong>Labrador Retriever</strong>: They are the most popular dog breed in the United States and are known for their friendly and outgoing personality. They are also excellent swimmers and love to retrieve items from water.</>,
+	  					<><strong>Bulldog</strong>: This breed is known for its wrinkly face and muscular build. Despite their tough appearance, Bulldogs are generally calm and affectionate with their families.</>,
+						<><strong>Beagle</strong>: These small dogs are known for their keen sense of smell and are often used in law enforcement for detecting contraband items. They are also very social and love to be around people.</>,
+						<><strong>Siberian Husky</strong>: These dogs are known for their thick, fluffy coats and striking blue eyes. They were originally bred in northeastern Asia as working dogs and are known for their strength and endurance.</>,
+						<><strong>Dachshund</strong>: This breed is commonly referred to as the "wiener dog" because of their long, sausage-like bodies. They were originally bred in Germany to hunt badgers and are known for their stubbornness and independent nature.</>];
 
   	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 

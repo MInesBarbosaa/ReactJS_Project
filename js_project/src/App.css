@@ -7,20 +7,44 @@ p {
   line-height: 1.6;
 }
 
+a:link { 
+  text-decoration: none;
+}
+
+a:visited { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: none; 
+}
+
+a:active { 
+  text-decoration: none; 
+}
+
+a {
+  color: rgb(236, 129, 5);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
 .title {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: orangered;
+  color: rgb(236, 156, 7);
   font-weight: bold;
   font-size: 50px;
+  margin-top: 60px;
+  font-family: sans-serif;
 }
 
 .intro {
   display:flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
@@ -34,6 +58,8 @@ p {
   font-size: 25px;
   flex-basis: 75%;
   padding: 50px;
+  padding-right: 15px;
+  color: #413d3d;
 }
 
 #intro_fig {
@@ -76,12 +102,12 @@ p {
   margin-left: 10px;
 }
 
-
 footer {
   text-align: center;
   background-color: rgba(18, 159, 184, 0.904);
   color: whitesmoke;
   padding: 10px;
+  font-family: sans-serif;
 }
 
 #logo {
@@ -98,11 +124,14 @@ footer {
   line-height: 1.6;
   display: flex;
   padding: 70px;
-}
-.dogMail {
-  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: #413d3d;
 }
 
+.dogMail {
+  text-align: center;  
+}
 
 .ContainerImg {
   display: flex;
@@ -115,7 +144,7 @@ footer {
 }
 
 .ContainerImg button {
-  background-color: orangered;
+  background-color: rgb(236, 156, 7);
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -126,24 +155,30 @@ footer {
 }
 
 .image-text-box {
-  /* background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 100px; */
   border: 1px solid #ccc ;
-  padding: 50px;
+  padding: 40px;
+  margin-bottom: 30px;
   border-radius: 5px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family: sans-serif ;
   width: 300px;
+  line-height: 20pt;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .ImgSize {
   width: 275px;
-height: 183;
+  height: 183;
 }
 
 .gallery_welcome {
   text-align: center;
-  
+  font-family: sans-serif;
+  color: rgb(58, 57, 56);
+  font-family: sans-serif;
+  line-height: 40pt;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 
