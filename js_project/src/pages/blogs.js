@@ -41,7 +41,7 @@ if (bmi >= 30.0) {
       <div className="input_div">
         <h1 className="BMI_title">Dog BMI Calculator</h1>
       
-        <p class="input_p">Weight: {weight} kg</p>
+        <p className="input_p">Weight: {weight} kg</p>
         <input
           className="input_range"
           onChange={(event) => setWeight(event.target.value)}
@@ -49,7 +49,7 @@ if (bmi >= 30.0) {
           step="1"
           min="1"
           max="110"/>
-        <p class="input_p">Height: {height} cm</p>
+        <p className="input_p">Height: {height} cm</p>
         <input
           className="input_range"
           onChange={(event) => setHeight(event.target.value)}
