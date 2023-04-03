@@ -22,7 +22,7 @@ cursor: pointer;
 font-family: sans-serif;
 font-size: 25px;
 &.active {
-	color: #4d4dff;
+	color: rgb(228, 185, 106);
 }
 `;
 

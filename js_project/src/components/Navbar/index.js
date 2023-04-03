@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
-import logo from './dog.webp';
+import logo from './main_dog.webp';
   
 const Navbar = () => {
   return (

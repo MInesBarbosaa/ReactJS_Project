@@ -1,5 +1,5 @@
 import React from 'react';
-import introfig from './dogs-collection.avif';
+import contactfig from './dog_letter.webp';
   
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
 
       <div className='dogMail'>
-            <img src={introfig} alt="MBI Calculator Logo"></img>
+            <img src={contactfig} alt="MBI Calculator Logo"></img>
       </div>
       
       <footer>
