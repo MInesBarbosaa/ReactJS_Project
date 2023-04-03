@@ -30,7 +30,7 @@ if (bmi >= 30.0) {
 }
 
   return (
-    <main id="Cal_page">
+    <main>
       
       <div id="BMI_intro">
         <h1 className="BMI_header">Calculate Your Dog's Body Mass Index</h1>

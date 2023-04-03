@@ -29,17 +29,17 @@ return (
 	<div>
 		<div>
     		<h1 className="gallery_welcome">
-    		There is a huge variety of different dog breeds. 
-			<br></br>
-			But for each owner, his dog is the best!
+    			There is a huge variety of different dog breeds. 
+				<br></br>
+				But for each owner, his dog is the best!
 			</h1>
     	</div>
 		<div className="ContainerImg">
 			<img className='ImgSize' src={images[currentImageIndex]} />
-   		<div> 
+   		<div className="button_div"> 
 			<button onClick={handlePrevImage}>Previous</button>
 			<button onClick={handleNextImage}>Next</button></div>
-			<div className="image-text-box">{imageTexts[currentImageIndex]}</div>
+			<div className="image_text_box">{imageTexts[currentImageIndex]}</div>
   		</div>
 		
 		<footer>

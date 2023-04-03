@@ -45,7 +45,10 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
+  margin-bottom: 130px;
+  border: 1px solid #afacac;
+  background-color: rgb(247, 243, 243);
 }
 
 .flex-child {
@@ -64,9 +67,10 @@ a {
 
 #intro_fig {
   flex-basis: 25%;
-  padding: 20px;
+  margin: 20px;
   width: 15% !important;;
   height: auto;
+  border: 1px solid #afacac;
 }
 
 .links {
@@ -154,16 +158,18 @@ footer {
 
 }
 
-.image-text-box {
-  border: 1px solid #ccc ;
-  padding: 40px;
-  margin-bottom: 30px;
+.image_text_box {
+  border: 1px solid #afacac ;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   border-radius: 5px;
   font-family: sans-serif ;
   width: 300px;
   line-height: 20pt;
   text-align: justify;
   text-justify: inter-word;
+  background-color: rgb(247, 243, 243)
 }
 
 .ImgSize {
@@ -174,15 +180,17 @@ footer {
 .gallery_welcome {
   text-align: center;
   font-family: sans-serif;
-  color: rgb(58, 57, 56);
+  color: rgb(240, 161, 16);
   font-family: sans-serif;
   line-height: 40pt;
   margin-bottom: 30px;
-  margin-top: 20px;
-}
-
-#Cal_page {
-  background-color: #fdf3f3cb;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #afacac;
+  background-color: rgb(247, 243, 243);
 }
 
 #BMI_intro {
@@ -211,7 +219,7 @@ footer {
   margin-top: 50px;
   margin-bottom: 30px;
   padding-bottom: 50px;
-  background-color: white;
+  background-color: rgb(247, 243, 243);
 }
 
 .BMI_title {
@@ -233,13 +241,13 @@ footer {
   border: 5px solid #a4a6aa;
   margin-left: 500px;
   margin-right: 500px;
-  background-color: white;
+  background-color: rgb(247, 243, 243);
 }
 
 .output_p {
   color: #37383a;
   font-family: sans-serif;
-  margin: 10px;
+  margin: 8px;
 }
 
 #message_div {
@@ -250,8 +258,78 @@ footer {
   margin-left: 220px;
   margin-right: 220px;
   color: #37383a;
-  background-color: white;
+  background-color: rgb(247, 243, 243);
 }
+
+
+.quiz_header {
+  font-family: sans-serif;
+  color: rgb(236, 156, 7);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quiz {
+  background-color: #f0f0f1;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border: 5px solid #a4a6aa;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  margin: 50px auto;
+}
+
+.score_div {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.question_div {
+  width: 100%;
+  position: relative;
+}
+
+.question_count {
+  margin-bottom: 20px;
+}
+
+.question_count span {
+  font-size: 28px;
+}
+
+.question_text {
+  margin-bottom: 12px;
+  margin-top: 50px;
+  margin-right: 20px;
+  line-height: 20pt;
+}
+
+.answer_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz_button {
+  width: 100%;
+  font-size: 16px;
+  color: rgb(49, 52, 59);
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid rgb(236, 156, 7);
+  cursor: pointer;
+  padding: 10px;
+}
+
 
 .App-header {
   background-color: #282c34;

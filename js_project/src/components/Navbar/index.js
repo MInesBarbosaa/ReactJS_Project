@@ -17,7 +17,7 @@ const Navbar = () => {
             BMI Calculator
           </NavLink>
           <NavLink to="/sign-up" activeStyle>
-            Forum
+            Quiz
           </NavLink>
           <NavLink to="/contact" activeStyle>
             Contact Us
