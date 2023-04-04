@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route }
 import Home from './pages';
 import About from './pages/About';
 import BMI from './pages/blogs';
-import SignUp from './pages/signup';
+import Quiz from './pages/quiz';
 import Contact from './pages/contacts';
 
 function App() {
@@ -18,7 +18,7 @@ return (
 		<Route path='/about' element={<About/>} />
 		<Route path='/contact' element={<Contact/>} />
 		<Route path='/blogs' element={<BMI/>} />
-		<Route path='/sign-up' element={<SignUp/>} />
+		<Route path='/quiz' element={<Quiz/>} />
 	</Routes>
 	</Router>
 );

@@ -67,7 +67,7 @@ const questions = [
 	},
 ];
 
-const SignUp = () => {
+const Quiz = () => {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
@@ -121,9 +121,9 @@ const SignUp = () => {
 
 ReactDOM.render(
 	<React.StrictMode>
-	  <SignUp />
+	  <Quiz />
 	</React.StrictMode>,
 	document.getElementById('root')
   );
 
-export default SignUp;
+export default Quiz;

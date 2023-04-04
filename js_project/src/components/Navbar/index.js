@@ -16,7 +16,7 @@ const Navbar = () => {
           <NavLink to="/blogs" activeStyle>
             BMI Calculator
           </NavLink>
-          <NavLink to="/sign-up" activeStyle>
+          <NavLink to="/quiz" activeStyle>
             Quiz
           </NavLink>
           <NavLink to="/contact" activeStyle>
