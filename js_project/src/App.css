@@ -63,14 +63,43 @@ a {
   padding: 50px;
   padding-right: 15px;
   color: #413d3d;
+  text-align: justify;
 }
 
 #intro_fig {
   flex-basis: 25%;
-  margin: 20px;
-  width: 15% !important;;
+  margin: 20px auto;
+  margin-left: 60px;
+  position: relative;
+  width: 75% !important;
   height: auto;
   border: 1px solid #afacac;
+}
+
+.ImgHover {
+  position: relative;
+}
+
+.ImgHover:hover img {
+  opacity: 0;
+}
+
+.hover-text {
+  position: absolute;
+  border: 5px solid #A4A6AA;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.ImgHover:hover .hover-text {
+  opacity: 1;
+}
+
+.hover-text p {
+  margin: 5px;
 }
 
 .links {
@@ -295,7 +324,7 @@ footer {
 
 .input_p {
   font-family: sans-serif;
-  color: #413d3d;
+  /*color: #413d3d;*/
 }
 
 #output_div {
@@ -394,29 +423,4 @@ footer {
   border: 2px solid rgb(236, 156, 7);
   cursor: pointer;
   padding: 10px;
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import introfig from './dogs-collection.avif';
 import BMICal from './BMICal.webp';
 import Care from './dog_care.png';
 import Shop from './shop.png';
 import { Link } from "react-router-dom";
-import BMI from "./blogs";
 
 const Home = () => {
+
+  const [textColor, setTextColor] = useState('#413d3d');
+
+  const MouseOver = () => {
+    setTextColor('rgb(236, 156, 7)');
+  };
+
+  const MouseOut = () => {
+    setTextColor('#413d3d');
+  };
+
+
   return (
     <div>
       <h1 className="title"> Dogs Lovers Club</h1>
       <div className="intro">
-        <p id="pIntro" className="flex-child">
+        <p id="pIntro" className="flex-child" 
+           style={{ color: textColor }}
+           onMouseOver={MouseOver}
+           onMouseOut={MouseOut}>
           Welcome to our website, where we're all about paws and laughter! If
           you're a dog lover, you're in the right place. And if you're not a dog
           lover, well... we're not sure why you're here, but we're glad you are!
@@ -20,12 +34,12 @@ const Home = () => {
           <br />
           We promise it'll be more fun than chasing your tail!
         </p>
-        <img
-          src={introfig}
-          className="flex-child"
-          id="intro_fig"
-          alt="Introcdution Figure"
-        />
+        <div className="ImgHover">
+          <img src={introfig} className="flex-child" id="intro_fig" alt="Introcdution Figure"/>
+          <div className="hover-text">
+            <p>You can trust your dog to guard your house but never trust your dog to guard your sandwich Lol</p>
+          </div>
+        </div>
       </div>
 
       <div className="links">
